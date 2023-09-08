@@ -1,0 +1,652 @@
+
+html, body {
+    height: 100%;
+}
+
+* {
+   padding: 0; 
+   font-family: 'Rubik', sans-serif;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 920px;
+        border: 1px solid red;
+    }
+}
+
+.topnav {
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+
+.topnav ul {
+    width: 558px; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 0px;
+    padding: 0;
+    
+}
+
+.topnav ul li {
+    box-sizing: border-box;
+    color: black !important;
+    text-align: center;
+}
+
+.topnav ul li a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: black;
+    display: inline-block;
+}
+
+/* .topnav ul li a::after {
+    content: '.';
+    position: relative;
+    top: -5px;
+    left: 25px;
+} */
+
+.topnav ul li a:visited {
+  color: black;
+  
+}
+
+.topnav ul li a:hover {
+    color: red;
+    transform: scale(1.2);
+    transition: transform 0.5s, color 10s;
+    font-weight: 400;  
+}
+
+
+
+.header {
+    height: 515.5px;
+    background-image:
+        url('file:///Users/sasha/website/img/dog-1.png'),
+        url('file:///Users/sasha/website/img/elipse-1.png'),
+        url('file:///Users/sasha/website/img/elipse-2.png');
+    background-position: 
+        453px 0,  /* dog-1 */
+        256px -93px,  /* elipse-1 */
+        476px 79px; /* elipse-2 */
+    background-repeat: 
+        no-repeat, 
+        no-repeat, /* Do not repeat the first image */
+        no-repeat; /* Do not repeat the second image */
+    background-size:
+        399px 520px, /* dog-1 */
+        280px 280px, /* elipse-1 */
+        470px 470px; /* elipse-2 */
+    background-attachment: 
+        scroll, /* Scroll the first image */
+        scroll; /* Fix the second image in place */
+    background-color: #F0F0F0;
+    border-bottom: 8px solid #F2968F;
+}
+
+.header .intro {
+    height: 200px;
+    margin-left: 84px;
+    display: flex;
+    justify-content: flex-start; 
+    flex-direction: column;
+    align-items: center; 
+    font-size: 20px;
+    margin-top: 181px;
+}
+
+.header .intro h1 {
+    font-size: 32px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+button.lets-go {
+    border-radius: 100px;
+    background-color: #F2968F;
+    border: 2px solid #F2968F;
+    width: 285px;
+    height: 58px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    width: 594px;
+    height: 228px;
+    margin-left: 199px;
+    background-image: 
+        url('file:///Users/sasha/website/img/dog 2.png'),
+        url('file:///Users/sasha/website/img/rectangle-1.png'), 
+        url('file:///Users/sasha/website/img/elipse-3.png');
+    background-position: 
+        44px, 
+        57px 132px, 
+        left;
+    background-repeat: 
+        no-repeat, 
+        no-repeat, 
+        no-repeat;
+    background-size: 
+        134px 193px, 
+        536px 72px,
+        222px 228px;
+}
+
+.about-us-wrap {
+    max-height: 394px;
+    background-image: 
+    url('file:///Users/sasha/website/img/bg-full.png');
+
+}
+
+.about-us h2 {
+    font-size: 32px; 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 69px;
+    margin-left: 228px;
+}
+
+
+.about-us p {
+    font-size: 18px; 
+    font-weight: 400;
+    margin-left: 178px;
+    margin-top: 30px;     /* random value */
+    padding-right: 20px;  /* random value */
+}
+
+.about-us h3 {
+    display: flex;
+    align-items: center;
+    font-size: 64px; 
+    font-weight: 500;
+    margin-top: 120px;
+    padding-left: 500px;
+    
+}
+
+.dogs {
+    height: 394px;
+
+}
+
+.dogs {
+    background-image: 
+        url('file:///Users/sasha/website/img/elipse-4.png'), 
+        url('file:///Users/sasha/website/img/dog-3.png');
+    background-position: 
+        97px 38px, 
+        74px 67px;
+    background-repeat:  
+        no-repeat, 
+        no-repeat; 
+    background-size: 
+        81px 81px,
+        331px 327px;
+}
+.dogs p{
+    color: white;
+    margin-left: 120px;
+    margin-top: 28px;
+    font-size: 70px; 
+    position: absolute;
+}
+
+
+.animals {
+    background-image: 
+    url('file:///Users/sasha/website/img/bg-elipses.png');
+    border-bottom: 8px solid #F2968F;
+}
+
+.mentallyhealthy h3 {
+    font-size: 32px; 
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 108px;
+    padding-right: 81px;
+}
+
+.mentallyhealthy p {
+    font-size: 16px; 
+    line-height: 2;
+    
+}
+.animal-socialization-wrap {
+    max-height: 395px;
+    height: 395px;
+
+}
+
+.animalsocialization h4 {
+    font-size: 32px; 
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 59px;
+    margin-left: 84px;
+}
+.animalsocialization p {
+    font-size: 16px; 
+    line-height: 2;
+    margin-left: 84px;
+    letter-spacing: -0.6px;
+}
+.animal {
+    background-image: 
+    url('file:///Users/sasha/website/img/elipse-5.png'), 
+    url('file:///Users/sasha/website/img/cat-1.png');
+    background-repeat:  
+        no-repeat, 
+        no-repeat; 
+    background-size: 
+        81px 81px,
+        331px 327px;
+    background-position: 
+        292px 38px, 
+        64px 67px;
+    height: 388px;
+}
+.animal p{
+    color: white;
+    margin-left: 310px;
+    margin-top: 25px;
+    font-size: 70px; 
+    position: absolute;
+}
+.convenience {
+    background-image: 
+    url('file:///Users/sasha/website/img/elipse-6.png'), 
+    url('file:///Users/sasha/website/img/cat-2.png');
+    background-repeat:  
+        no-repeat, 
+        no-repeat; 
+    background-size: 
+        81px 81px,
+        331px 327px;
+    background-position: 
+        97px 38px, 
+        76px 67px;
+    height: 388px;
+}
+.convenience p{
+    color: white;
+    margin-left: 115px;
+    margin-top: 28px;
+    font-size: 70px; 
+    position: absolute;
+}
+.animalconvenience h5{
+    font-size: 32px; 
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 108px;
+    padding-right: 81px;
+
+}
+
+.animalconvenience p {
+    font-size: 16px;
+    line-height: 2;
+}
+.our-animals-wrap{
+    background-image: 
+    url('file:///Users/sasha/website/img/bg-full.png');  
+}
+.card-section-wrap{
+    display: flex;
+    justify-content: center;
+    border-bottom: 8px solid #F2968F;
+    height: 830px;
+
+}
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+    width: 690px;  
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 207px;
+}
+
+.image {
+    background-size: 
+        206px 148px;
+    height: 147px;
+    width: 206px;
+}
+
+.image.image1 {
+    background-image: 
+    url('file:///Users/sasha/website/img/card-1.png');
+}
+
+.card-title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+.card-title h6{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 9px;   
+    padding-top: 6px;
+
+}
+.card-title p{
+    font-size: 10px;
+    font-weight: 300;
+    padding-left: 9px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+.card-title span {
+    font-size: 10px;
+    padding-right: 19px;
+    padding-top: 6px;
+}
+.card2 {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 207px;
+}
+.image2 {
+    background-image: 
+    url('file:///Users/sasha/website/img/card-2.png');
+}
+.card-title h7{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 9px; 
+    padding-top: 6px; 
+}
+.card-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 207px;
+}
+.card-title h8{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 9px; 
+    padding-top: 6px; 
+}
+.our-store-wrap{
+    background-image: 
+    url('file:///Users/sasha/website/img/bg-full.png');  
+}
+.image3 {
+    background-image: 
+    url('file:///Users/sasha/website/img/card-3.png');
+}
+.image4{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-4.png');
+}
+.image5{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-5.png');
+}
+.image6{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-6.png');
+}
+.image7{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-7.png');
+}
+.image8{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-8.png');
+}
+.image9{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-9.png');
+}
+.image10{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-10.png');
+}
+.image11{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-11.png');
+}
+.image12{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-12.png');
+}
+.image13{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-13.png');
+}
+.image14{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-14.png');
+}
+.image15{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-15.png');
+}
+.image16{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-16.png');
+}
+.image17{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-17.png');
+}
+.image18{
+    background-image: 
+    url('file:///Users/sasha/website/img/card-18.png');
+}
+.contacts-wrap {
+    background-image: 
+    url('file:///Users/sasha/website/img/bg-full.png'); 
+    height: 100%; 
+}
+
+.Contacts {
+    display: flex;
+    flex-direction: column;
+    width: 641px;
+    height: 290px;
+    margin-left: 199px;
+    border: 1px solid red;
+    margin-top: 40px;
+    position: relative;
+    background-image: 
+        url('file:///Users/sasha/website/img/dog 2.png'),
+        url('file:///Users/sasha/website/img/rectangle-1.png'), 
+        url('file:///Users/sasha/website/img/elipse-3.png');
+    background-position: 
+        44px, 
+        57px 169px, 
+        left;
+    background-repeat: 
+        no-repeat, 
+        no-repeat, 
+        no-repeat;
+    background-size: 
+        134px 193px, 
+        584px 113px,
+        222px 228px;
+}
+.Contacts h2 {
+    font-size: 32px; 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 69px;
+    margin-left: 228px;
+}
+.Contacts p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 178px;
+    top: 64px;
+    position: relative;
+    padding-right: 20px;
+    line-height: 1.3; 
+}
+.contact-information{
+    border: 1px solid red;
+   
+}
+.information {
+    border: 1px solid green;
+    top: 53px;
+    position: relative;
+    height: 300px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    left: 10px;
+
+}
+.information2 {
+    height: 300px;
+    border: 1px solid black;
+    top: 53px;
+    position: relative;
+
+}
+.information label {
+    display: block;
+    font-size: 10px;
+    margin-top: 7px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+/*.information-input{
+    display: flex;
+    justify-content: center;
+    width: 330px;
+    height: 213px;
+}
+/* .topnav ul li a::after {
+    content: '.';
+    position: relative;
+    top: -5px;
+    left: 25px;
+} */
+
+.information input {
+    display: block;  
+    width: 309px;
+    height: 48px;
+    border: 2px solid #F2968F;
+    border-radius: 5px;
+    padding-left: 15px
+} 
+.information button {
+    width: 166px;
+    height: 48px;
+    border: 2px solid #F2968F;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #F2968F;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 18px;
+}
+.information2 .icon1 {
+    width: 67px;
+    height: 68px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.icon1 p{
+    color: #F0F0F0;
+    padding-top: 16px;
+    padding-left: 7px;
+}
+.number p {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.icon1 i {
+    position: relative;
+    bottom: 25px;
+    left: 25px;
+}
+.information2 .icon2{
+    width: 66px;
+    height: 63px;
+    background-color: black;
+    border-radius: 100px;
+    border: 5px solid green;
+}
+.numbers p{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.information2 p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.icon2 p{
+    color: #F0F0F0;
+    font-weight: 300;
+    font-size: 35px;
+    position: relative;
+    left: 7px;
+}
+.mono {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.icon24 {
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.footer {
+    background-color: #bf5e57;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    color: #F0F0F0;
+    font-size: 12px;
+    position: relative;
+    top: 26px;
+    padding-left: 23px;
+
+}

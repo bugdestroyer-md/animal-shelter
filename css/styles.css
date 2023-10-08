@@ -72,9 +72,9 @@ html, body {
 .header {
     height: 515.5px;
     background-image:
-        url('https://www.dropbox.com/scl/fi/l2stb5rkj8y1zomn06xmm/dog-1.png?dl=1'),
-        url('https://www.dropbox.com/scl/fi/fo1wxk9z9wkemo3a8dlbv/elipse-1.png?dl=1'),
-        url('https://www.dropbox.com/scl/fi/yrhqd1jfk3s2n8b04tmu9/elipse-2.png?dl=1');
+        url('/dog-1.png'),
+        url('/elipse-1.png'),
+        url('/elipse-2.png');
     background-position: 
         453px 0,  /* dog-1 */
         256px -93px,  /* elipse-1 */
@@ -133,9 +133,9 @@ button.lets-go {
     height: 228px;
     margin-left: 199px;
     background-image: 
-        url('https://www.dropbox.com/scl/fi/949py3yz2whq9npco5oy9/dog-2.png?dl=1'),
-        url('https://www.dropbox.com/scl/fi/ddobhdvjcswoa9314ck8a/rectangle-1.png?dl=1'), 
-        url('https://www.dropbox.com/scl/fi/w26vk88e033fqiwznyw9y/elipse-3.png?dl=1');
+        url('/dog-2.png'),
+        url('/rectangle-1.png'), 
+        url('/elipse-3.png');
     background-position: 
         44px, 
         57px 132px, 
@@ -153,7 +153,7 @@ button.lets-go {
 .about-us-wrap {
     max-height: 394px;
     background-image: 
-    url('https://www.dropbox.com/scl/fi/3aks7cpoezt3p8m7ubsi2/bg-full.png?dl=1');
+    url('/bg-full.png');
 
 }
 
@@ -192,8 +192,8 @@ button.lets-go {
 
 .dogs {
     background-image: 
-        url('https://www.dropbox.com/scl/fi/brhjpr9jmhibg0p3aqta3/elipse-4.png?dl=1'), 
-        url('https://www.dropbox.com/scl/fi/v4w4pdev5a6xkrk4qw0ji/dog-3.png?dl=1');
+        url('/elipse-4.png'), 
+        url('/dog-3.png');
     background-position: 
         97px 38px, 
         74px 67px;
@@ -215,7 +215,7 @@ button.lets-go {
 
 .animals {
     background-image: 
-    url('https://www.dropbox.com/scl/fi/aingfvjp7j2nerwv5dbx8/bg-elipses.png?dl=1');
+    url('/bg-elipses.png');
     border-bottom: 8px solid #F2968F;
 }
 
@@ -253,8 +253,8 @@ button.lets-go {
 }
 .animal {
     background-image: 
-    url('https://www.dropbox.com/scl/fi/mh0slrq9wx4mw7gxachio/elipse-5.png?dl=1'), 
-    url('https://www.dropbox.com/scl/fi/eoprc7d110wzqbz4b2d7l/cat-1.png?dl=1');
+    url('/elipse-5.png'), 
+    url('/cat-1.png');
     background-repeat:  
         no-repeat, 
         no-repeat; 
@@ -275,8 +275,8 @@ button.lets-go {
 }
 .convenience {
     background-image: 
-    url('https://www.dropbox.com/scl/fi/j59om0gd4i1y736qh5g1r/elipse-6.png?dl=1'), 
-    url('https://www.dropbox.com/scl/fi/781gx3alshbbkvg038fxu/cat-2.png?dl=1');
+    url('/elipse-6.png'), 
+    url('/cat-2.png');
     background-repeat:  
         no-repeat, 
         no-repeat; 
@@ -310,7 +310,7 @@ button.lets-go {
 }
 .our-animals-wrap{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/3aks7cpoezt3p8m7ubsi2/bg-full.png?dl=1');  
+    url('/bg-full.png');  
 }
 .card-section-wrap{
     display: flex;
@@ -342,7 +342,7 @@ button.lets-go {
 
 .image.image1 {
     background-image: 
-    url('https://www.dropbox.com/scl/fi/751c2lhg65anqdfemih4i/card-1.png?dl=1');
+    url('/card-1.png');
 }
 
 .card-title{
@@ -377,7 +377,7 @@ button.lets-go {
 }
 .image2 {
     background-image: 
-    url('https://www.dropbox.com/scl/fi/w9wp7u3xbnynz285p991u/card-2.png?dl=1');
+    url('/card-2.png');
 }
 .card-title h7{
     font-size: 18px;
@@ -404,75 +404,75 @@ button.lets-go {
 }
 .our-store-wrap{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/3aks7cpoezt3p8m7ubsi2/bg-full.png?dl=1');  
+    url('/bg-full.png');  
 }
 .image3 {
     background-image: 
-    url('https://www.dropbox.com/scl/fi/4zzajlpyksdlmjfc2i926/card-3.png?dl=1');
+    url('/card-3.png');
 }
 .image4{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/mheilk1ovbgfunmec7c22/card-4.png?dl=1');
+    url('/card-4.png');
 }
 .image5{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/p0901ivnibrsij8u52tws/card-5.png?dl=1');
+    url('/card-5.png');
 }
 .image6{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/ebngrny3jt7fn0f5f3nbc/card-6.png?dl=1');
+    url('/card-6.png');
 }
 .image7{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/6zxx7vixm2pcvf6msrneu/card-7.png?dl=1');
+    url('/card-7.png');
 }
 .image8{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/lwdcoteq7km80anwa52ju/card-8.png?dl=1');
+    url('/card-8.png');
 }
 .image9{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/jb03krcrxe1jlzusvne1t/card-9.png?dl=1');
+    url('/img/card-9.png');
 }
 .image10{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/mvddqmvg2si9f02u3upos/card-10.png?dl=1');
+    url('/card-10.png');
 }
 .image11{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/6cex6nu3jgvc1141aj49v/card-11.png?dl=1');
+    url('/card-11.png');
 }
 .image12{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/wqjmwg5kr8x0depak4hhy/card-12.png?dl=1');
+    url('/card-12.png');
 }
 .image13{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/87z3e51eafo72yjh39k3m/card-13.png?dl=1');
+    url('/card-13.png');
 }
 .image14{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/9dv0l142eipzqi2nk0whj/card-14.png?dl=1');
+    url('/card-14.png');
 }
 .image15{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/jah9pupgh0ve4nd7u602b/card-15.png?dl=1');
+    url('/card-15.png');
 }
 .image16{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/bg1xmvxxjd3up84ecvan0/card-16.png?dl=1');
+    url('/card-16.png');
 }
 .image17{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/a9joidui7a9ob4td2lr2s/card-17.png?dl=1');
+    url('/card-17.png');
 }
 .image18{
     background-image: 
-    url('https://www.dropbox.com/scl/fi/ow5ygjcus0dcy50fkce8e/card-18.png?dl=1');
+    url('/card-18.png');
 }
 .contacts-wrap {
     background-image: 
-    url('https://www.dropbox.com/scl/fi/3aks7cpoezt3p8m7ubsi2/bg-full.png?dl=1'); 
+    url('/bg-full.png'); 
     height: 100%; 
 }
 
@@ -485,9 +485,9 @@ button.lets-go {
     margin-top: 40px;
     position: relative;
     background-image: 
-        url('https://www.dropbox.com/scl/fi/949py3yz2whq9npco5oy9/dog-2.png?dl=1'),
-        url('https://www.dropbox.com/scl/fi/ddobhdvjcswoa9314ck8a/rectangle-1.png?dl=1'), 
-        url('https://www.dropbox.com/scl/fi/w26vk88e033fqiwznyw9y/elipse-3.png?dl=1');
+        url('/dog-2.png'),
+        url('/rectangle-1.png'), 
+        url('/elipse-3.png');
     background-position: 
         44px, 
         57px 169px, 
@@ -627,7 +627,7 @@ button.lets-go {
     color: #F0F0F0;
     font-size: 12px;
     position: relative;
-    top: 26px;
+    margin-top: 26px;
     padding-left: 23px;
 
 }

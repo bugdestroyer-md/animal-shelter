@@ -72,9 +72,9 @@ html, body {
 .header {
     height: 515.5px;
     background-image:
-        url('/dog-1.png'),
-        url('/elipse-1.png'),
-        url('/elipse-2.png');
+        url('/img/dog-1.png'),
+        url('/img/elipse-1.png'),
+        url('/img/elipse-2.png');
     background-position: 
         453px 0,  /* dog-1 */
         256px -93px,  /* elipse-1 */
@@ -133,9 +133,9 @@ button.lets-go {
     height: 228px;
     margin-left: 199px;
     background-image: 
-        url('/dog-2.png'),
-        url('/rectangle-1.png'), 
-        url('/elipse-3.png');
+        url('/img/dog-2.png'),
+        url('/img/rectangle-1.png'), 
+        url('/img/elipse-3.png');
     background-position: 
         44px, 
         57px 132px, 
@@ -153,7 +153,7 @@ button.lets-go {
 .about-us-wrap {
     max-height: 394px;
     background-image: 
-    url('/bg-full.png');
+    url('/img/bg-full.png');
 
 }
 
@@ -192,8 +192,8 @@ button.lets-go {
 
 .dogs {
     background-image: 
-        url('/elipse-4.png'), 
-        url('/dog-3.png');
+        url('/img/elipse-4.png'), 
+        url('/img/dog-3.png');
     background-position: 
         97px 38px, 
         74px 67px;
@@ -215,7 +215,7 @@ button.lets-go {
 
 .animals {
     background-image: 
-    url('/bg-elipses.png');
+    url('/img/bg-elipses.png');
     border-bottom: 8px solid #F2968F;
 }
 
@@ -253,8 +253,8 @@ button.lets-go {
 }
 .animal {
     background-image: 
-    url('/elipse-5.png'), 
-    url('/cat-1.png');
+    url('/img/elipse-5.png'), 
+    url('/img/cat-1.png');
     background-repeat:  
         no-repeat, 
         no-repeat; 
@@ -275,8 +275,8 @@ button.lets-go {
 }
 .convenience {
     background-image: 
-    url('/elipse-6.png'), 
-    url('/cat-2.png');
+    url('/img/elipse-6.png'), 
+    url('/img/cat-2.png');
     background-repeat:  
         no-repeat, 
         no-repeat; 
@@ -310,7 +310,7 @@ button.lets-go {
 }
 .our-animals-wrap{
     background-image: 
-    url('/bg-full.png');  
+    url('/img/bg-full.png');  
 }
 .card-section-wrap{
     display: flex;
@@ -342,7 +342,7 @@ button.lets-go {
 
 .image.image1 {
     background-image: 
-    url('/card-1.png');
+    url('/img/card-1.png');
 }
 
 .card-title{
@@ -377,7 +377,7 @@ button.lets-go {
 }
 .image2 {
     background-image: 
-    url('/card-2.png');
+    url('/img/card-2.png');
 }
 .card-title h7{
     font-size: 18px;
@@ -404,31 +404,31 @@ button.lets-go {
 }
 .our-store-wrap{
     background-image: 
-    url('/bg-full.png');  
+    url('/img/bg-full.png');  
 }
 .image3 {
     background-image: 
-    url('/card-3.png');
+    url('/img/card-3.png');
 }
 .image4{
     background-image: 
-    url('/card-4.png');
+    url('/img/card-4.png');
 }
 .image5{
     background-image: 
-    url('/card-5.png');
+    url('/img/card-5.png');
 }
 .image6{
     background-image: 
-    url('/card-6.png');
+    url('/img/card-6.png');
 }
 .image7{
     background-image: 
-    url('/card-7.png');
+    url('/img/card-7.png');
 }
 .image8{
     background-image: 
-    url('/card-8.png');
+    url('/img/card-8.png');
 }
 .image9{
     background-image: 
@@ -436,43 +436,43 @@ button.lets-go {
 }
 .image10{
     background-image: 
-    url('/card-10.png');
+    url('/img/card-10.png');
 }
 .image11{
     background-image: 
-    url('/card-11.png');
+    url('/img/card-11.png');
 }
 .image12{
     background-image: 
-    url('/card-12.png');
+    url('/img/card-12.png');
 }
 .image13{
     background-image: 
-    url('/card-13.png');
+    url('/img/card-13.png');
 }
 .image14{
     background-image: 
-    url('/card-14.png');
+    url('/img/card-14.png');
 }
 .image15{
     background-image: 
-    url('/card-15.png');
+    url('/img/card-15.png');
 }
 .image16{
     background-image: 
-    url('/card-16.png');
+    url('/img/card-16.png');
 }
 .image17{
     background-image: 
-    url('/card-17.png');
+    url('/img/card-17.png');
 }
 .image18{
     background-image: 
-    url('/card-18.png');
+    url('/img/card-18.png');
 }
 .contacts-wrap {
     background-image: 
-    url('/bg-full.png'); 
+    url('/img/bg-full.png'); 
     height: 100%; 
 }
 
@@ -485,9 +485,9 @@ button.lets-go {
     margin-top: 40px;
     position: relative;
     background-image: 
-        url('/dog-2.png'),
-        url('/rectangle-1.png'), 
-        url('/elipse-3.png');
+        url('/img/dog-2.png'),
+        url('/img/rectangle-1.png'), 
+        url('/img/elipse-3.png');
     background-position: 
         44px, 
         57px 169px, 
